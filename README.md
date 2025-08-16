@@ -46,7 +46,7 @@ npm start
 \`\`\`
 
 ## Demo
-- **Live demo**: [task-manager-1quoynt63-duyanhs-projects-1b04846b.vercel.app]
+- **Live demo**: [task-manager-1quoynt63-duyanhs-projects-1b04846b.vercel.app](https://task-manager-i6xd.vercel.app/)]
 - **API endpoint**: [https://task-manager-1quoynt63-duyanhs-projects-1b04846b.vercel.app/]
 
 ## Tác giả
