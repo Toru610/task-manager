@@ -1,70 +1,45 @@
-Task Management System
+# 📝 Task Management System
 
-Mô tả
+[![React](https://img.shields.io/badge/React-18-blue?logo=react)](https://react.dev/) 
+[![JSON Server](https://img.shields.io/badge/JSON%20Server-Mock%20API-orange)](https://github.com/typicode/json-server)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
 
-## Available Scripts
+Ứng dụng quản lý công việc đơn giản, xây dựng bằng **React** và **JSON Server**, hỗ trợ xác thực người dùng, CRUD công việc và chế độ Dark/Light Mode.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Tính năng chính
+- 🔑 **Xác thực người dùng**: Đăng ký, Đăng nhập, Đăng xuất an toàn  
+- 🔒 **Duy trì phiên đăng nhập** (auto-login)  
+- 📋 **Quản lý công việc (CRUD)**: Tạo, Xem, Cập nhật, Xóa  
+- 🌗 **Giao diện Dark/Light Mode** (lưu lại lựa chọn người dùng)  
+- 🔍 **Lọc & Tìm kiếm công việc** theo:
+  - Trạng thái: `Cần làm`, `Đang làm`, `Hoàn thành`  
+  - Độ ưu tiên: `Cao`, `Trung bình`, `Thấp`  
+  - Tiêu đề công việc  
+- 📱 **Responsive UI**: Hoạt động tốt trên desktop & mobile  
+- ⏳ **Loading Spinner** & **Error Handling** thân thiện  
+- ✅ **Form Validation**: kiểm tra dữ liệu nhập vào (auth & task form)  
+- 🎭 **Hiệu ứng UI**: panel Login/Register trượt qua lại mượt mà  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Công nghệ sử dụng
 
-### `npm test`
+**Frontend**
+- React 18 (Hooks: `useState`, `useEffect`, `useContext`, `useRef`)
+- React Router DOM
+- CSS3 (Flexbox, Grid, CSS Variables cho Dark/Light Mode)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Backend (mock API)**
+- JSON Server
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📦 Cài đặt & chạy
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### ⚡ Yêu cầu
+- Node.js >= 14  
+- npm  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### ⚙️ Cài đặt
