@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "123456",
+      "email": "admin@taskmanager.com",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "username": "user1",
+      "password": "password",
+      "email": "user1@taskmanager.com",
+      "role": "user"
+    }
+  ],
+  "tasks": [],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Development",
+      "color": "#3498db"
+    },
+    {
+      "id": "2",
+      "name": "Learning",
+      "color": "#e74c3c"
+    },
+    {
+      "id": "3",
+      "name": "Personal",
+      "color": "#27ae60"
+    }
+  ]
+}

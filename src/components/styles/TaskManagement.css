@@ -1,0 +1,56 @@
+.task-header-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  background: #fff;
+  padding: 16px 20px;  
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+  margin-bottom: 24px;
+  animation: fadeIn 0.5s ease;
+}
+
+body.dark .task-header-card {
+  background: #1e293b;
+  color: #f1f5f9;
+}
+
+.task-header-card h2 {
+  font-size: 16px;  
+  font-weight: 500;
+  margin: 0;
+  flex: 1;
+  text-align: left;
+}
+
+.add-task-btn {
+  padding: 6px 12px;  
+  border: none;
+  border-radius: 6px;
+  background: #1D283D;
+  color: white;
+  font-size: 13px;  
+  cursor: pointer;
+  font-weight: 500;
+  white-space: nowrap;
+  transition: background 0.3s ease, transform 0.2s;
+}
+
+.add-task-btn:hover {
+  background: linear-gradient(135deg, #3b82f6, #06b6d4);
+  transform: translateY(-1px);
+}
+
+.task-management .task-form {
+  margin-bottom: 30px;
+}
+
+.task-list {
+  margin-top: 20px;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-15px); }
+  to { opacity: 1; transform: translateY(0); }
+}

@@ -1,0 +1,132 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 60px); 
+    padding-top: 60px; 
+  }
+
+  .login-card {
+    display: flex;
+    flex-direction: column;    
+    background: #fff;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+    width: 100%;
+    max-width: 440px;          
+    animation: fadeIn 0.6s ease;
+  }
+  
+  body.dark .login-card {
+    background: #1e293b;
+    color: #f1f5f9;
+  }
+
+  .login-image {
+    width: 100%;
+    height: 220px;              
+    overflow: hidden;
+  }
+  
+  .login-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;          
+    display: block;
+  }
+  
+  .login-form {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .login-form h2 {
+    text-align: center;
+    margin-bottom: 24px;
+    font-size: 22px;
+    font-weight: 600;
+  }
+  
+  .form-group {
+    margin-bottom: 18px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    font-size: 15px;
+    box-sizing: border-box;   
+  }
+  
+  .form-group input:focus {
+    border-color: #4facfe;
+    box-shadow: 0px 0px 6px rgba(79, 172, 254, 0.4);
+  }
+  
+
+  body.dark .form-group input {
+    background: #334155;
+    color: #f1f5f9;
+    border: 1px solid #475569;
+  }
+  
+  body.dark .form-group input:focus {
+    border-color: #38bdf8;
+    box-shadow: 0 0 0 4px rgba(56,189,248,0.2);
+  }
+  
+  .input-error {
+    border-color: #ef4444 !important;
+    background-color: #fff1f0;
+  }
+  
+  .error {
+    color: #ef4444;
+    font-size: 13px;
+    margin-top: 6px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background: #1D283D;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: transform 0.15s ease, filter 0.2s ease;
+    margin-top: 6px;
+  }
+  
+  button:hover:not(:disabled) {
+    transform: translateY(-1px);
+    filter: brightness(0.98);
+  }
+  
+  button:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+  }
+  
+  body.dark button {
+    background: linear-gradient(135deg, #38bdf8, #0ea5e9);
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-14px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  @media (max-width: 360px) {
+    .login-card { max-width: 92vw; }
+    .login-image { height: 200px; }
+  }
