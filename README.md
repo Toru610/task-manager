@@ -1,45 +1,33 @@
-# 📝 Task Management System
+# Task Manager
 
-[![React](https://img.shields.io/badge/React-18-blue?logo=react)](https://react.dev/) 
-[![JSON Server](https://img.shields.io/badge/JSON%20Server-Mock%20API-orange)](https://github.com/typicode/json-server)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
-
-Ứng dụng quản lý công việc đơn giản, xây dựng bằng **React** và **JSON Server**, hỗ trợ xác thực người dùng, CRUD công việc và chế độ Dark/Light Mode.
+Ứng dụng **Task Manager** giúp quản lý công việc cá nhân hoặc nhóm, xây dựng bằng **ReactJS** cho frontend và **JSON Server** làm backend.
 
 ---
 
-## 🚀 Tính năng chính
-- 🔑 **Xác thực người dùng**: Đăng ký, Đăng nhập, Đăng xuất an toàn  
-- 🔒 **Duy trì phiên đăng nhập** (auto-login)  
-- 📋 **Quản lý công việc (CRUD)**: Tạo, Xem, Cập nhật, Xóa  
-- 🌗 **Giao diện Dark/Light Mode** (lưu lại lựa chọn người dùng)  
-- 🔍 **Lọc & Tìm kiếm công việc** theo:
-  - Trạng thái: `Cần làm`, `Đang làm`, `Hoàn thành`  
-  - Độ ưu tiên: `Cao`, `Trung bình`, `Thấp`  
-  - Tiêu đề công việc  
-- 📱 **Responsive UI**: Hoạt động tốt trên desktop & mobile  
-- ⏳ **Loading Spinner** & **Error Handling** thân thiện  
-- ✅ **Form Validation**: kiểm tra dữ liệu nhập vào (auth & task form)  
-- 🎭 **Hiệu ứng UI**: panel Login/Register trượt qua lại mượt mà  
+## Tính năng
+
+- Thêm, sửa, xóa task.
+- Đặt **tiêu đề**, **mô tả**, **trạng thái**, **ưu tiên**, **ngày hết hạn**.
+- Phân loại task theo trạng thái: **Todo**, **In Progress**, **Completed**.
+- Tìm kiếm task theo **title** hoặc **description**.
+- Lọc task theo trạng thái.
+- Sắp xếp task theo **ngày tạo**, **ngày hết hạn**, hoặc **ưu tiên**.
+- Hiển thị số lượng task đang làm và đã hoàn thành.
+- Giao diện responsive, dễ sử dụng.
 
 ---
 
-## 🛠️ Công nghệ sử dụng
+## Công nghệ sử dụng
 
-**Frontend**
-- React 18 (Hooks: `useState`, `useEffect`, `useContext`, `useRef`)
-- React Router DOM
-- CSS3 (Flexbox, Grid, CSS Variables cho Dark/Light Mode)
-
-**Backend (mock API)**
-- JSON Server
+- **Frontend**: ReactJS, CSS, React Hooks
+- **Backend**: JSON Server
+- **Triển khai (Deployment)**: Vercel / Netlify (frontend), Heroku / Vercel (backend)
 
 ---
 
-## 📦 Cài đặt & chạy
+## Cài đặt và chạy project
 
-### ⚡ Yêu cầu
-- Node.js >= 14  
-- npm  
-
-### ⚙️ Cài đặt
+1. Clone repository:
+```bash
+git clone https://github.com/Toru610/task-manager.git
+cd task-manager
